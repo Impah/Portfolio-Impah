@@ -834,27 +834,7 @@ footer .arriba{
         margin: 30px 10px 40px;
     }
 
-    #cumpleanosL{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #telefonoL{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #emailL{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #direccionL{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #cargoL{
+    .sobreMi .fila .col ul li {
         display: flex;
         flex-direction: column;
     }
