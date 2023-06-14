@@ -172,7 +172,7 @@ html{
 }
 
 .sobreMi .fila #colIntereses{
-    padding-left: 5%;
+    padding: 20px;
 }
 
 
@@ -815,6 +815,11 @@ footer .arriba{
         border-bottom: 1px solid white;
         padding: 10px 0;
     }
+
+    .sobreMi .fila .col {
+        width: 100%;
+        margin: 30px 10px 40px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -826,6 +831,36 @@ footer .arriba{
 
     .sobreMi .fila .col {
         width: 100%;
+        margin: 30px 10px 40px;
+    }
+
+    #cumpleanosL{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #telefonoL{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #emailL{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #direccionL{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cargoL{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobreMi .fila #colIntereses{
+        padding: 10px;
     }
 
     #colMediaQueriesIntereses {
@@ -856,7 +891,7 @@ footer .arriba{
         width: 100%;
     }
 
-    .skilss .fila .col .barra-skill{
+    .skills .fila .col .barra-skill{
         width: 100%;
     }
 
