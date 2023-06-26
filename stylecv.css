@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1e2326;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+body a:hover {
+    border: 2px solid aqua;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px aqua;
+}
+
+body a:active {
+    border: 2px solid rgb(0, 255, 149);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px aqua;
+}
+
+
+.h1cv {
+    color: white;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.cv {
+    
+    width: auto;
+    margin: 30px 50px 40px 50px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 2px aqua;
+}
+
+@media screen and (max-width:600px) {
+    .cv img {
+        width: 100%;
+
+        height: 100%;
+    }
+}

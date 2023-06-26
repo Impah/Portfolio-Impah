@@ -283,10 +283,11 @@ html{
 
 .skills .fila{
     display: flex;
+    justify-content: center;
 }
 
 .skills .fila .col{
-    width: 50%;
+    width: 100%;
     padding: 0 20px;
 }
 
@@ -305,7 +306,7 @@ html{
 
 .skills .skill .barra-skill{
     height: 8px;
-    width: 80%;
+    width: 100%;
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
@@ -347,6 +348,16 @@ html{
 .skills .skill .htmlcss{
     width: 0%;
     animation: 2s htmlcss forwards;
+}
+
+@keyframes java{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
 }
 
 @keyframes htmlcss{
