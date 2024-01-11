@@ -335,6 +335,18 @@ html{
 }
 
 /* Estas clases se agregaran dinamicamente mediante javascript */
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -345,11 +357,6 @@ html{
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-
 @keyframes java{
     0%{width: 0;}
     100%{width: 70%;}
@@ -358,11 +365,6 @@ html{
 .skills .skill .java{
     width: 0%;
     animation: 2s java forwards;
-}
-
-@keyframes htmlcss{
-    0%{width: 0;}
-    100%{width: 85%;}
 }
 
 .skills .skill .python{
@@ -382,7 +384,7 @@ html{
 
 @keyframes photoshop{
     0%{width: 0;}
-    100%{width: 60%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .premiere{
