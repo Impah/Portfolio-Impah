@@ -321,18 +321,26 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <input type="text" id="nombre" placeholder="Tu nombre">
-                    <input type="text" id="telefono" placeholder="Número telefónico">
-                    <input type="text" id="correo" placeholder="Dirección de correo">
-                    <input type="text" id="tema" placeholder="Tema">
-                    <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button id="enviar-mensaje">
+                <form id="contact-form" class="col" action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="f2a7b3d9-6e1b-409e-964a-8ddad353194e">
+                    <input type="hidden" name="subject" value="Nuevo Email de Impah-Portfolio">
+                    <input type="hidden" name="from_name" value="Portfolio-Impah">
+
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
+                    <input type="text" name="telefono" id="telefono" placeholder="Número telefónico">
+                    <input type="email" name="email" id="correo" placeholder="Dirección de correo" required>
+                    <input type="text" name="tema" id="tema" placeholder="Tema">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+
+                    <div class="h-captcha" data-captcha="true"></div>
+
+                    <button type="submit" id="enviar-mensaje">
                         Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
     
-                </div>
+                </form>
             </div>
         </div>
     </section>
@@ -353,6 +361,9 @@
 
     
     <script src="script.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="contact.js"></script>
+
 </body>
 
 </html>

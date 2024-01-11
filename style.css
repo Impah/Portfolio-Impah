@@ -798,6 +798,10 @@ footer .arriba{
     font-size: 18px;
 }
 
+.h-captcha {
+    text-align: center;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width:980px) {
