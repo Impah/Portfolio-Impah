@@ -63,3 +63,14 @@ body a:active {
         height: 100%;
     }
 }
+
+/* Success */
+
+#h1S {
+    color: white;
+    margin: 20px;
+}
+
+#CorrectoS {
+    margin: 20px;
+}
