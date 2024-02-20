@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -6,7 +7,7 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -47,13 +48,17 @@ body a:active {
 }
 
 .cv {
-    
-    width: auto;
+
+    max-width: 100%;
     margin: 30px 50px 40px 50px;
     border: 2px solid aqua;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 1px 1px 10px 2px aqua;
+}
+
+.cv img {
+    width: 100%;
 }
 
 @media screen and (max-width:600px) {
